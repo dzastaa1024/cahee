@@ -1,10 +1,9 @@
 import React from 'react';
 
-function Item({label, href} ) {
+const Item = ({label, href}) => {
   return (
-    <a className="Item" href={href}>
+    <a className="nav-item" href={href}>
         {label}
-     
     </a>
   );
 }

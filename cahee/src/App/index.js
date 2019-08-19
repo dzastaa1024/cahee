@@ -10,15 +10,15 @@ import Subscribe from '../Subscribe';
 
 function App() {
   return (
-    <div>
+    <div className="app">
      <Header />
+     <Home />
      <About />
+     <Services  />
+     <Gallery />
+     <Subscribe />
      <Blog />
      <Contact />
-     <Gallery />
-     <Home />
-     <Services  />
-     <Subscribe />
 
     </div>
   );

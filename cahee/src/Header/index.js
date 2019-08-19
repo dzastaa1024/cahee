@@ -1,8 +1,8 @@
 import React from 'react';
 import Item from './components/Item';
+import './styles.scss';
 
-function Header() {
-
+const Header = () => {
     const items = [
         {
             label: 'Home',
@@ -32,12 +32,12 @@ function Header() {
     ]
 
   return (
-    <div className="Header">
-     <h4>Cahee</h4>
-     <nav>
-         {items.map(item => <Item label={item.label} href={item.href}/>)}
+    <header className="header">
+     <h4 className="header__title">Cahee</h4>
+     <nav className="header__navigation">
+         {items.map(item => <Item key={item.label} label={item.label} href={item.href}/>)}
      </nav>
-    </div>
+    </header>
   );
 }
 

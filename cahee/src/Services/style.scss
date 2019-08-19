@@ -1,0 +1,58 @@
+.section-services {
+    background-color: gray;
+
+    .service-box {
+        background-color: white;
+        box-shadow: 1px 1px 8px -3px rgba(0, 0, 0, 0.5);
+        padding: 1rem 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 43rem;
+        border-radius: 0.3rem;
+        margin: auto;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+        
+
+        &__text {
+            font-size: 1.7rem;
+        } 
+
+        &__icon {
+            font-size: 3rem;
+            position: relative;
+            &::before {
+                content:'';
+                position: absolute;
+                top: -1rem;
+                left: -3rem;
+                width: 1px;
+                height: 71px;
+                background-color: #000;
+
+            }
+        } 
+    }
+
+    .picture {
+        height: 450px;
+        background-image: url("../assets/img/44.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .heading-primary {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            color: #fff;
+            letter-spacing: 0.2rem;
+        }
+    }
+}
+

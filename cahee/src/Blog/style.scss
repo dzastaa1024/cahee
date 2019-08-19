@@ -1,0 +1,27 @@
+.section-blog {
+    background-color: rgb(144, 200, 201);
+    text-align: center;
+    padding: 4rem 0;
+
+    .picture-box {
+        width: 830px;
+        margin: 4rem auto;
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: repeat(3, 3.1fr);
+        grid-gap: 1rem;
+
+        .pic {
+            &--1 {
+                background-image: url(../assets/img/sea.jpg);
+            }
+            &--2 {
+                background-image: url(../assets/img/flower.jpg);
+            }
+            &--3 {
+                background-image: url(../assets/img/cobweb.jpg);
+            }
+          
+        }
+    }
+}

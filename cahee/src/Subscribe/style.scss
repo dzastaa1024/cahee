@@ -1,0 +1,16 @@
+.section-subscribe {
+    .form {
+        &__field {
+            width: 200px;
+            height: 33px;
+            margin-right: 25px;
+        }
+    }
+    .picture{
+        height: 450px;
+        background-image: url("../assets/img/mangoo.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

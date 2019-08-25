@@ -1,7 +1,7 @@
 {
   "name": "cahee",
   "version": "0.1.0",
-  "homepage":"https://github.com/dzastaa1024/cahee",
+  "homepage":"https://dzastaa1024.github.io/cahee/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
